@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="Login"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="100sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:hint="Enter Username"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+       android:hint="Enter Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree the terms and conditions"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+
+</LinearLayout>
